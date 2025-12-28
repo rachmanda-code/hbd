@@ -73,8 +73,8 @@ body{
   top:50%;
   left:50%;
   transform:translate(-50%,-50%) scale(0);
-  background:rgba(255,255,255,.12);
-  backdrop-filter:blur(8px);
+  background:rgb(255 255 255 / 40%);
+  
   padding:25px;
   border-radius:20px;
   width:85%;
@@ -113,10 +113,10 @@ button{
 
 <!-- COLLAGE -->
 <div id="collage">
-  <img src="image1.jpg">
-  <img src="image2.jpg">
-  <img src="image1.jpg">
-  <img src="image2.jpg">
+  <img src="4.jpg">
+  <img src="1.jpg">
+  <img src="2.jpg">
+  <img src="3.jpg">
 </div>
 
 <!-- AWAL -->
@@ -140,16 +140,13 @@ button{
 const audio=document.getElementById("linkmp3");
 
 const teksAwal=`
-<b style="font-size:20px">Alooo Kamuuu! 😆</b><br><br>
-Ciyeee yang Hari Ini Ultah 🫣💗<br><br>
-<b><i>Happy Birthday yaa! 🥳</i></b>
+<b style="font-size:20px">Halooooo Mas Gilangku🥰</b><br><br>
+Ciyeee yang Hari Ini Ultah 💗<br><br>
 `;
 
 const teksAkhir=`
-<b style="font-size:20px">Selamat Ulang Tahun Sayang! 🎉</b><br><br>
-Gak kerasa ya umur kamu nambah lagi 😆🤏<br><br>
-Semoga kamu selalu sehat, bahagia,
-dan semua doa terbaikmu segera terwujud 💗<br><br>
+<b style="font-size:20px">✨Barakallah fii umrik✨</b><br><br>
+Happy level up!! <br><br>
 <b><i>Wish you all the best!</i> 🎂✨</b>
 `;
 
@@ -174,7 +171,7 @@ function mulai(){
 
 function jawab(mau){
   if(!mau){
-    alert("Yaaah 😝🫵");
+    alert("harus mauuuu!😠");
     return;
   }
 
